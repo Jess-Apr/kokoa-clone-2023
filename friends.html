@@ -23,18 +23,90 @@
             </div>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="friends.html"><i class="fas fa-user fa-lg"></i></a></li>
-                <li><a href="#"><i class="far fa-comment fa-lg"></i></a></li>
-                <li><a href="#"><i class="fal fa-search"></i></a></li>
-                <li><a href="#">Find</a></li>
+        <header class="screen-header">
+            <h1 class="screen-header__title">Friends</h1>
+            <div class="screen-header__icons">
+                <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
+                <span><i class="fa-solid fa-music fa-2x"></i></span>
+                <span><i class="fa-solid fa-gear fa-2x"></i></span>
+            </div>
+        </header>
+ 
+        <a id="friends-display-link">
+            <i class="fa-solid fa-circle-info"></i>
+            Friends' Names Display
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+        </a>
+
+        <main class="friends-screen">
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img 
+                        src="https://w.namu.la/s/3a71b0dcbaeebd0de0777c8b713170e89d2f4ad28b9f86bd1d34947911bd623722ff10c762764622434c60c4c50b07ac442a97aaf4485f8a4c290e333abd6eb05eb2feb8ae08e4937159422c36e652982892684c8db8b2659e1961e2f134ce0b20e3e8816e608cc7298905df9ca0471c" 
+                        class="user-component__avatar user-component__avatar--xl" 
+                    />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title">Jessie</h4>
+                        <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
+                    </div>
+                </div>
+                <div class="user-component__column">
+                </div>
+            </div>
+            <div class="friends-screen__channel">
+                <div class="friends-screen__channel-header">
+                    <span>Channel</span>
+                    <i class="fa-solid fa-chevron-up fa-xs"></i>
+                </div>
+                <div class="user-component">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://w.namu.la/s/3a71b0dcbaeebd0de0777c8b713170e89d2f4ad28b9f86bd1d34947911bd623722ff10c762764622434c60c4c50b07ac442a97aaf4485f8a4c290e333abd6eb05eb2feb8ae08e4937159422c36e652982892684c8db8b2659e1961e2f134ce0b20e3e8816e608cc7298905df9ca0471c" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right fa-xs"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                        <i class="fa-solid fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link href="#">
+                        <span class="nav__notification">1</span>
+                        <i class="fa-regular fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link href="#">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link href="#">
+                        <span class="nav__dot"></span>
+                        <i class="fa-solid fa-ellipsis fa-2x"></i>
+                    </a>
+                </li>
             </ul>
         </nav>
 
-        <script
-        src="https://kit.fontawesome.com/6478f529f2.js"
-        crossorigin="anonymous"
-      ></script>
+        <script 
+        src="https://kit.fontawesome.com/fda23fb680.js" 
+        crossorigin="anonymous"ß
+        ></script>
     </body>
 </html>
