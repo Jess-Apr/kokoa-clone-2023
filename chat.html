@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatting Room - Kokoa Clone</title>
+        <link rel="stylesheet" href="css/styles.css" />
+    </head>
+    <body id="chat-screen">
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>                 
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>110%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="alt-header">
+            <div class="alt-header__column">
+                <a href="chats.html">
+                    <i class="fa-solid fa-angle-left fa-2x"></i>
+                </a>
+            </div> 
+            <div class="alt-header__column">
+                <h1 class="alt-header__title">Jessie</h1>
+            </div>
+            <div class="alt-header__column">
+                <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+                <span><i class="fa-solid fa-bars fa-xl"></i></span>
+            </div>
+        </header>
+
+        <main class="main-screen main-chat">
+            <div class="chat__timestamp">
+                Tuesday, June 30, 2020
+            </div>
+            <div class="message-row message-sent">
+                <img src="https://w.namu.la/s/3a71b0dcbaeebd0de0777c8b713170e89d2f4ad28b9f86bd1d34947911bd623722ff10c762764622434c60c4c50b07ac442a97aaf4485f8a4c290e333abd6eb05eb2feb8ae08e4937159422c36e652982892684c8db8b2659e1961e2f134ce0b20e3e8816e608cc7298905df9ca0471c" />
+                <div class="message-row__content">
+                    <span class="message__author">Jessie</span>
+                    <div class="message__space">
+                        <span class="message__bubble">Hi!</span>
+                        <span class="message__time">21:20</span>
+                    </div>
+                </div>
+            </div>
+            <div class="message-row message-row--own">
+                <div class="message-row__content">
+                    <div class="message__space">
+                        <span class="message__bubble">Hi nice to meet you!</span>
+                        <span class="message__time">21:20</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <form class="reply">
+            <div class="reply__column">
+                <i class="fa-regular fa-square-plus fa-2x"></i>
+            </div>
+            <div class="reply__column">
+                <input type="text" placeholder="Write a message" />
+                <i class="fa-regular fa-face-smile fa-2x"></i>
+                <button>
+                    <i class="fa-solid fa-arrow-up fa-2x"></i>
+                </button>
+            </div>
+        </form>
+
+        <div id="no-mobile">
+            <span>Your screen is too big</span>
+        </div>
+
+        <script 
+        src="https://kit.fontawesome.com/fda23fb680.js" 
+        crossorigin="anonymous"ß
+        ></script>
+    </body>
+</html>
