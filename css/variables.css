@@ -1,6 +1,9 @@
 :root {
-    --yellow: #fae100;
+    --pink: rgb(254, 218, 224);
+    --light-pink: rgb(255, 243, 245);
+    --favorite-pink: rgb(255, 163, 179);
     --horizontal-space: 25px;
     --main-border: 1px solid rgba(0, 0, 0, 0.12);
     --gray: rgba(0, 0, 0, 0.5);
+    --brown: #5c5652;
 }

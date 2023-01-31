@@ -1,10 +1,15 @@
 .screen-header {
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: var(--horizontal-space);
     padding-top: 50px;
     margin-bottom: 15px;
+    background-color: var(--pink);
+    z-index: 1;
 }
 
 .screen-header__title {
@@ -23,17 +28,4 @@
 .screen-header__gear-dot {
     left: 11px;
     bottom: 30px;
-}
-
-@keyframes rotateCog {
-    from {
-        transform: none;
-    }
-    to {
-        transform: rotateZ(360deg);
-    }
-}
-
-.screen-header__icons .fa-gear:hover {
-    animation: rotateCog 1s linear infinite;
 }
