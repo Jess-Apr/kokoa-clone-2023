@@ -1,0 +1,115 @@
+.profile__body {
+    background: url("https://64.media.tumblr.com/f2244c1dc74ab8ed20f8c1cfbdb4faec/a8f65226f597e238-04/s540x810/d7cd7c42e38e85293f308572ee9a43633ccf1c62.pnj") no-repeat;
+    background-position: center;
+    background-color: #f9e9ed;
+}
+
+.profile__screen__img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 50px;
+    position: absolute;
+    width: 100%;
+    bottom: 180px;
+}
+
+.profile__screen__img img {
+    width: 85px;
+    height: 85px;
+    border-radius: 35px;
+    margin-bottom: 13px;
+}
+
+.profile__screen__name {
+    color: var(--brown);
+    margin-bottom: 7px;
+}
+
+.profile__screen__text {
+    color: var(--brown);
+    font-size: 14px;
+}
+
+.profile__screen__icon {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 50px;
+    border-top: 0.3px solid rgba(53, 49, 45, 0.2);
+    padding-top: 25px;
+    color: var(--brown);
+}
+
+.profile__screen__icon-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+}
+
+.profile__screen__icon-row:first-child {
+    align-items: flex-end;
+}
+
+.profile__screen__icon-row:last-child {
+    align-items: flex-start;
+}
+
+.profile__screen__icon-row:last-child span {
+    position: relative;
+    left: -19px;
+}
+
+.profile__screen__icon-row i {
+    margin-bottom: 13px;
+}
+
+.profile__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--brown);
+}
+
+.profile__header-x {
+    margin: 20px 23px;
+}
+
+.profile__header-icons {
+    display: flex;
+    margin-top: -6px;
+}
+
+.profile__header-icons i {
+    margin-right: 29px;
+}
+
+.profile__header-circle {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    border: 1.5px solid var(--brown);
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.profile__header-circle:first-child {
+    top: 15px;
+    right: 121px;
+}
+
+.profile__header-circle:nth-child(3) {
+    top: 15px;
+    right: 72px;
+}
+
+.profile__header-circle:nth-child(5) {
+    top: 15px;
+    right: 22px;
+}
+
+.favorite-star {
+    color: var(--favorite-pink);
+    border-color: var(--favorite-pink);
+}

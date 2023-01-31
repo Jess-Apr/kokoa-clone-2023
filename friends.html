@@ -7,7 +7,7 @@
         <title>Friends - Kokoa Clone</title>
         <link rel="stylesheet" href="css/styles.css" />
     </head>
-    <body>
+    <body class="friends__body">
         <div class="status-bar">
             <div class="status-bar__column">
                 <span>No Service</span>
@@ -28,31 +28,37 @@
             <div class="screen-header__icons">
                 <span><i class="fa-solid fa-magnifying-glass fa-2x"></i></span>
                 <span><i class="fa-solid fa-music fa-2x"></i></span>
-                <span><i class="fa-solid fa-gear fa-2x"></i></span>
+                <span class="screen-header__gear-icon">
+                    <a href="settings.html">
+                        <i class="fa-solid fa-gear fa-2x"></i>
+                    </a>
+                    <span class="nav__dot screen-header__gear-dot"></span>
+                </span>
             </div>
         </header>
- 
+        
         <a id="friends-display-link">
             <i class="fa-solid fa-circle-info"></i>
-            Friends' Names Display
+                Friends' Names Display
             <i class="fa-solid fa-chevron-right fa-xs"></i>
         </a>
-
+    
         <main class="friends-screen">
             <div class="user-component">
                 <div class="user-component__column">
                     <img 
-                        src="https://w.namu.la/s/3a71b0dcbaeebd0de0777c8b713170e89d2f4ad28b9f86bd1d34947911bd623722ff10c762764622434c60c4c50b07ac442a97aaf4485f8a4c290e333abd6eb05eb2feb8ae08e4937159422c36e652982892684c8db8b2659e1961e2f134ce0b20e3e8816e608cc7298905df9ca0471c" 
+                        src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/soc_mymelodyFOTMbio_12292021_01_1200x1200_6d52f3a8-933f-45f2-b8ce-01d31710d7bf_480x480.png?v=1642031351" 
                         class="user-component__avatar user-component__avatar--xl" 
                     />
                     <div class="user-component__text">
-                        <h4 class="user-component__title">Jessie</h4>
+                        <h4 class="user-component__title">My Melody</h4>
                         <!--<h6 class="user-component__subtitle">this text whatever</h6>-->
                     </div>
                 </div>
                 <div class="user-component__column">
                 </div>
             </div>
+
             <div class="friends-screen__channel">
                 <div class="friends-screen__channel-header">
                     <span>Channel</span>
@@ -61,7 +67,7 @@
                 <div class="user-component">
                     <div class="user-component__column">
                         <img 
-                            src="https://w.namu.la/s/3a71b0dcbaeebd0de0777c8b713170e89d2f4ad28b9f86bd1d34947911bd623722ff10c762764622434c60c4c50b07ac442a97aaf4485f8a4c290e333abd6eb05eb2feb8ae08e4937159422c36e652982892684c8db8b2659e1961e2f134ce0b20e3e8816e608cc7298905df9ca0471c" 
+                            src="https://static.wikia.nocookie.net/hellokitty/images/4/46/Sanrio_Characters_My_Melody_Image008.jpg/revision/latest?cb=20170407005226" 
                             class="user-component__avatar user-component__avatar--sm" 
                         />
                         <div class="user-component__text">
@@ -76,8 +82,176 @@
                     </div>
                 </div>
             </div>
-        </main>
 
+            <div class="friends-screen__favorites">
+                <div class="friends-screen__channel-header">
+                    <span>Favorites</span>
+                    <i class="fa-solid fa-chevron-up fa-xs"></i>
+                </div>
+                <a href="mom.html">
+                    <div class="user-component" id="mom">
+                        <div class="user-component__column">
+                            <img 
+                                src="https://static.wikia.nocookie.net/hellokitty/images/0/0e/Sanrio_Characters_Mama_%28My_Melody%29_Image001.jpg/revision/latest/scale-to-width-down/700?cb=20170308171909" 
+                                class="user-component__avatar user-component__avatar--sm" 
+                            />
+                            <div class="user-component__text">
+                                <h4 class="user-component__title user-component__title--not-bold">Mama 💕</h4>
+                                <h6 class="user-component__subtitle">I love my family ❤️</h6>
+                            </div>
+                        </div>
+                        <div class="user-component__column">
+                        </div>
+                    </div>                
+                </a>
+                <div class="user-component" id="dad">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://static.wikia.nocookie.net/hellokitty/images/9/99/Sanrio_Characters_Papa_%28My_Melody%29_Image001.jpg/revision/latest/scale-to-width-down/700?cb=20170308171910" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Papa 💖</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <a href="chat.html">
+                    <div class="user-component" id="kuromi">
+                        <div class="user-component__column">
+                            <img 
+                                src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_KU_1200x1200_1_1024x1024.png?v=1664470975" 
+                                class="user-component__avatar user-component__avatar--sm" 
+                            />
+                            <div class="user-component__text">
+                                <h4 class="user-component__title user-component__title--not-bold">Kuromi 💜</h4>
+                                <h6 class="user-component__subtitle">independent & fearless</h6>
+                            </div>
+                        </div>
+                        <div class="user-component__column">
+                        </div>
+                    </div>
+                </a>
+            </div>
+            
+            <div class="friends-screen__friends">
+                <div class="friends-screen__channel-header">
+                    <span>Friends<span>8</span></span>
+                    <i class="fa-solid fa-chevron-up fa-xs"></i>
+                </div>
+                <div class="user-component" id="cinnamoroll">
+                    <div class="user-component__column">
+                        <img 
+                        src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_CN_1200x1200_88c02180-90a1-4745-921e-341c191ec84a_480x480.png?v=1646098139" 
+                        class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Cinnamoroll</h4>
+                            <h6 class="user-component__subtitle">Strawberry cake is always the best!! 🍰</h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <div class="user-component" id="hellokitty">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_HK02_1200x1200_8e0362aa-6b38-4f53-9d87-227bc923075d_1024x1024.png?v=1667247735" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Hello Kitty</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <div class="user-component" id="keroppi">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_KR_1200x1200_9daa3a2f-bca0-4c2b-a947-f1a4287b535a_480x480.png?v=1656536264" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Keroppi</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <div class="user-component" id="kuromi">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_KU_1200x1200_1_1024x1024.png?v=1664470975" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Kuromi 💜</h4>
+                            <h6 class="user-component__subtitle">independent & fearless</h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <a href="mom.html">
+                    <div class="user-component" id="mom">
+                        <div class="user-component__column">
+                            <img 
+                                src="https://static.wikia.nocookie.net/hellokitty/images/0/0e/Sanrio_Characters_Mama_%28My_Melody%29_Image001.jpg/revision/latest/scale-to-width-down/700?cb=20170308171909" 
+                                class="user-component__avatar user-component__avatar--sm" 
+                            />
+                            <div class="user-component__text">
+                                <h4 class="user-component__title user-component__title--not-bold">Mama 💕</h4>
+                                <h6 class="user-component__subtitle">Love my family ❤️</h6>
+                            </div>
+                        </div>
+                        <div class="user-component__column">
+                        </div>
+                    </div>                
+                </a>
+                <div class="user-component" id="dad">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://static.wikia.nocookie.net/hellokitty/images/9/99/Sanrio_Characters_Papa_%28My_Melody%29_Image001.jpg/revision/latest/scale-to-width-down/700?cb=20170308171910" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Papa 💖</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <div class="user-component" id="pochacco">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://cdn.shopify.com/s/files/1/0416/8083/0620/files/01132022_soc_pinterestboardcoverupdate_PC_1200x1200_2_480x480.png?v=1643148624" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Pochacco</h4>
+                            <h6 class="user-component__subtitle">Anyone wants to play basketball with me?</h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+                <div class="user-component" id="pompompurin">
+                    <div class="user-component__column">
+                        <img 
+                            src="https://pbs.twimg.com/media/FPRTgNEXIAY00rn?format=jpg&name=small" 
+                            class="user-component__avatar user-component__avatar--sm" 
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title user-component__title--not-bold">Pompompurin</h4>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                    </div>
+                </div>
+            </div>
+        </main>
 
         <nav class="nav">
             <ul class="nav__list">
@@ -107,7 +281,7 @@
         </nav>
 
         <div id="splash-screen">
-            <i class="fas fa-comment"></i>
+            <img src="https://static.wikia.nocookie.net/hellokitty/images/5/53/Sanrio_Characters_My_Melody_Image019.png/revision/latest/scale-to-width-down/185?cb=20170407005230" />
         </div>
 
         <div id="no-mobile">

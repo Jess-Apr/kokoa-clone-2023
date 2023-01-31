@@ -23,7 +23,8 @@
 .user-component__subtitle {
     margin-top: 8px;
     font-size: 17px;
-    color: rgba(0, 0, 0, 0.5)
+    opacity: 0.5;
+    z-index: 0;
 }
 
 .user-component__avatar--xl {

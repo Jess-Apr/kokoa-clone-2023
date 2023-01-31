@@ -11,7 +11,7 @@
     font-size: 32px;
 }
 
-@media screen and (max-width:650px) {
+@media screen and (max-width:5000px) {
     #no-mobile {
         display: none;
     }
